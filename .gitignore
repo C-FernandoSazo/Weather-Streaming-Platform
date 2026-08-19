@@ -1,0 +1,29 @@
+# ---- Rust (api_rest) ----
+target/
+**/target/
+
+# ---- Go (consumer/kafka, consumer/rabbit, Go Deployments/client, writer_kafka, writer_rabbit) ----
+consumer/kafka/kafka
+consumer/rabbit/rabbit
+Go Deployments/client/client
+Go Deployments/server/writer_kafka/writer_kafka
+Go Deployments/server/writer_rabbit/writer_rabbit
+*.exe
+*.test
+*.out
+
+
+# ---- Python (locust) ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# ---- Variables de entorno ----
+.env
+*.env
+
+# ---- Sistema operativo / editor ----
+.DS_Store
+Thumbs.db
